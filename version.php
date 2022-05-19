@@ -23,6 +23,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2022051904;
+$plugin->version = 2022051905;
 $plugin->requires = 2016102100;
 $plugin->component = 'local_documentation';

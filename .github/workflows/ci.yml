@@ -18,7 +18,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.PORT }}
-          env: PLUGIN_PATH
+          envs: PLUGIN_PATH
           script: |
             cd $PLUGIN_PATH
             git pull origin main

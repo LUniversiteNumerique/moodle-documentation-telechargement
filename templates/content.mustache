@@ -1,0 +1,290 @@
+<div class="container">
+    <div class="row">
+        <!-- Navigation -->
+        <aside id="floating-nav" class="col-12 col-md-4 col-lg-3">
+            <div class="inner">
+                <h5 class="pl-0">Navigation</h5>
+                <ol>
+                    <li>
+                        <a href="#part1">Précisions préalables</a>
+                    </li>
+                    <li>
+                        <a href="#part2">Téléchargement du cours</a>
+                    </li>
+                    <li>
+                        <a href="#part3">Restauration du cours</a>
+                    </li>
+                    <li>
+                        <a href="#part4">Modification du cours</a>
+                    </li>
+                    <li>
+                        <a href="#part5">Ressources</a>
+                    </li>
+                </ol>
+            </div>
+        </aside>
+    
+        <!-- Content -->
+        <section class="col-12 col-md-8 col-lg-9">
+            <h1 id="part1" class="mt-4 mb-5">Télécharger les contenus</h1>
+
+            <p>Vous souhaitez télécharger un cours Moodle de 
+            <a href="https://moodle.luniversitenumerique.fr/" target="_blank" alt="Moodle de L'Université Numérique" class="un-link" style="font-size:1em;">L'Université Numérique</a> 
+            et l’intégrer sur votre plateforme Moodle ? 
+            Ce guide vous explique pas à pas comment procéder.</p>
+            <p>Mais auparavant, quelques explications concernant le contenu présent sur la plateforme peuvent vous être utiles.</p>
+
+            <br>
+            <h2 class="mt-5 mb-4">1- Précisions préalables</h1>
+
+            <h5 class="blue mt-5 mb-4">1-1 Quelle différence entre le parcours et les catégories de cours sur le Moodle de 
+            L’Université Numérique ?</h5>
+
+            <div class="d-flex justify-content-center">
+                <img src={{parcours-img}} class="img-fluid col col-lg-10">
+            </div>
+            <h5 class="d-flex justify-content-center my-4">et</h5>
+            <div class="d-flex justify-content-center">
+                <img src={{categories-img}} class="img-fluid col col-lg-10">
+            </div>
+
+            <p class="mt-4"><strong>Dans le premier cas</strong> (parcours de L’Université Numérique), les contenus proposés, classés par 
+            thématique pédagogique, recensent des ressources éducatives libres proposées par les différentes Universités 
+            Numériques Thématiques (UNT) composant L’Université Numérique. Il s’agit de liens pointant le plus souvent vers 
+            des contenus réutilisables au sein même des UNT.</p>
+            <p><strong>Dans le deuxième cas</strong> (catégories de cours), les mêmes contenus sont directement accessibles au sein de la 
+            plateforme Moodle de L’université Numérique. Ceux-ci sont consultables et téléchargeables immédiatement au format 
+            Moodle ou <a href="https://h5p.org/" target="_blank" name="site web H5P">H5P</a>. Leur mise en forme homogène permet, 
+            plus facilement que dans la première partie, une réutilisation partielle et sélective.</p>
+            <p>Ce guide traite de la réutilisation des cours de cette deuxième partie uniquement.</p>
+
+            <h5 class="blue mt-5 mb-4">1-2 Les droits liés à l’utilisation des cours Moodle de L’Université Numérique</h5>
+            <p>Tous les cours présents sur le Moodle de L’Université Numérique sont sous licence libre permettant leur 
+            utilisation et leur modification sous certaines conditions. Ces conditions sont celles des licences 
+            Créative Commons disponibles et explicitées ici : 
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank" alt="licence Creative Commons by-nc-sa">https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr</a></p>
+
+            <h5 class="blue mt-5 mb-4">1-3 Etre identifié pour pouvoir télécharger</h5>
+            <p>Pour pouvoir exporter un cours Moodle de L’Université Numérique, il faut auparavant y posséder un compte.</p>
+            <p>Si vous n’êtes pas déjà identifié sur le Moodle de L’Université Numérique au moyen de vos identifiants d’établissement 
+            universitaire d’origine, vous devez vous créer un compte propre à Moodle sur le site.</p>
+            <ul>
+                <li><strong>Si vous êtes sur la page d’accueil du Moodle de L’université Numérique</strong>, il suffit de cliquer sur le 
+            bouton « connexion » comme dans l’image ci-dessous.
+                    <div class="d-flex justify-content-center">
+                        <img src={{connexion-accueil}} class="img-fluid">
+                    </div>
+                </li>
+                <li class="mt-4"><strong>Si vous êtes sur la page d’un cours</strong>, cliquez sur le bouton connexion situé en haut à droite de 
+                chaque page de cours (voir image ci-dessous) :
+                    <div id="block-region-side-pre" class="block-region mt-3">
+                        <section class="block_html block card mb-3 col-12 col-md-4">
+                            <div class="card-body p-3">
+                                <h5 class="card-title d-inline">Téléchargement du cours</h5>
+                                <div class="card-text content mt-3">
+                                    Pour accéder à l'export du cours vous devez être identifié ou vous créer ou compte :
+                                    <br><br>
+                                    <a href="/login/index.php" class="btn btn-primary">Connexion</a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+            </ul>
+
+            <br>
+            <p class="mt-5">Chacune de ces actions vous renvoie vers la page de création de compte ou de connexion ci-dessous :</p>
+            <div class="d-flex justify-content-center">
+                <img src={{connexion}} class="img-fluid col col-lg-10">
+            </div>
+
+            <p class="mt-4">Effectuez la procédure d’inscription (image ci-dessus) en cliquant sur « créer un compte » si vous n’avez
+            pas déjà d’identifiants universitaires. Attention à ne pas oublier l’étape de vérification de l’email fourni.</p>
+            <p>Si vous en avez un, cliquez sur le bouton « connexion avec mon compte universitaire » et renseignez les champs correspondants.</p>
+            <p>Une fois identifié(e) vous serez en mesure d’effectuer la procédure de téléchargement indiquée ci-après.</p>
+            
+            <br>
+            <h2 id="part2" class="mt-5 mb-4">2- Téléchargement du cours</h1>
+
+            <p class="mt-4">Chaque cours au format natif Moodle de L’Université Numérique peut être exporté puis importé sur 
+            votre plateforme Moodle.</p>
+            <p>Le téléchargement est alors possible depuis le bas de la page d’accueil du cours, dans la section « téléchargement ».</p>
+            <p>Une fois votre compte créé ou que vous êtes identifié, vous pouvez retourner sur la page du cours et il sera possible d’accéder 
+            au fichier de sauvegarde (au format .mbz) en bas du cours, en cliquant sur « accéder au contenu » le cas échéant puis téléchargez 
+            ce cours » :</p>
+            <div class="row">
+                <img src={{section-telechargement}} class="img-fluid col col-lg-8">
+            </div>
+            <p class="mt-4 mb-0">Puis :</p>
+            <div class="content">
+                <ul class="section img-text">
+                    <li class="activity resource modtype_resource">
+                        <div>
+                            <div class="completion">
+                                <span class="autocompletion">
+                                    <img class="icon iconsmall" title="no-completion" alt="no-completion" src="https://moodle.luniversitenumerique.fr/theme/image.php/univnumerique/core/1646818764/i/no-completion">
+                                </span>
+                            </div>
+                            <div class="activityinstance">
+                                <a href="#" target="_blank" class="aalink">
+                                    <img src="https://moodle.luniversitenumerique.fr/theme/image.php/univnumerique/core/1646818764/f/moodle-24" class="iconlarge activityicon" role="presentation" aria-hidden="true">
+                                    <span class="instancename">
+                                        Télécharger le cours<span class="accesshide"> Fichier</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            Sauvegardez ce fichier sur votre ordinateur.
+
+            <br>
+            <br>
+            <h2 id="part3" class="mt-5 mb-4">3- Restauration du cours</h1>
+
+            <p>La restauration du cours consiste, si vous avez les permissions suffisantes (rôle enseignant ou plus), à importer la sauvegarde 
+            du cours Moodle existant (précédemment téléchargé au format .mbz) dans un nouveau cours créé pour l’occasion sur votre plateforme.</p>
+            <p>Pour cela il faut vous rendre dans la catégorie de votre site Moodle qui recevra le cours restauré, cliquer sur la petite roue 
+            dentée à droite <i class="icon fa fa-cog blue mr-0"></i> et choisir l’option « restaurer un cours » dans le menu contextuel présenté ci-dessous.</p>
+            
+            <div class="clearfix">
+                <div class="dropdown-menu show position-relative">
+                    <div class="dropdown-item">
+                        <i class="icon fa fa-pencil fa-fw " aria-hidden="true"></i>Gérer cette catégorie
+                    </div>
+                    <div class="dropdown-item">
+                        <i class="icon fa fa-pencil fa-fw " aria-hidden="true"></i>Modifier cette catégorie
+                    </div>
+                    <div class="dropdown-item">
+                        <i class="icon fa fa-plus-square fa-fw " aria-hidden="true"></i>Ajouter une sous-catégorie
+                    </div>
+                    <div class="dropdown-item">
+                        <i class="icon fa fa-user-plus fa-fw " aria-hidden="true"></i>Attribution des rôles
+                    </div>
+                    <div class="dropdown-item">
+                        <i class="icon fa fa-pencil-square-o fa-fw " aria-hidden="true"></i>Permissions
+                    </div>
+                    <div class="dropdown-item">
+                        <i class="icon fa fa-unlock-alt fa-fw " aria-hidden="true"></i>Voir les permissions
+                    </div>
+                    <div class="dropdown-item">
+                        <i class="icon fa fa-users fa-fw " aria-hidden="true"></i>Cohortes
+                    </div>
+                    <div class="dropdown-item">
+                        <i class="icon fa fa-filter fa-fw " aria-hidden="true"></i>Filtres
+                    </div>
+                    <div class="dropdown-item">
+                        <i class="icon fa fa-level-up fa-fw " aria-hidden="true"></i>Restaurer un cours
+                    </div>
+                    <div class="dropdown-item">
+                        <i class="icon fa fa-check-square-o fa-fw " aria-hidden="true"></i>Modèles de plan de formation
+                    </div>
+                    <div class="dropdown-item">
+                        <i class="icon fa fa-check-square-o fa-fw " aria-hidden="true"></i>Référentiels de compétences
+                    </div>
+                </div>
+            </div>
+
+            <p class="mt-4">Choisir ensuite le fichier de sauvegarde que vous avez précédemment enregistré sur votre ordinateur et le déposer 
+            dans la partie « importer un fichier de sauvegarde ».</p>
+
+            <div class="mt-5">
+                <div class="form-group row fitem">
+                    <div class="col-md-3 col-form-label d-flex pb-0 pr-md-0">
+                        <p class="mb-0 d-inline" aria-hidden="true" style="cursor: default;">
+                                Fichiers
+                            </p>
+                        <div class="form-label-addon d-flex align-items-center align-self-start">
+                                <div class="text-danger" title="Requis">
+                                <i class="icon fa fa-exclamation-circle text-danger fa-fw " title="Requis" aria-label="Requis"></i>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-9 form-inline align-items-start felement" data-fieldtype="filepicker">
+                        <fieldset class="w-100 m-0 p-0 border-0" id="id_backupfile_fieldset">
+                            <legend class="sr-only">Fichiers</legend>
+                            <div class="filemanager-loading mdl-align" style="display: none;">
+                <i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Chargement…" aria-label="Chargement…"></i>
+                </div>
+                <div class="mdl-left w-100" style="">
+                    <div>
+                        <input type="button" class="btn btn-secondary fp-btn-choose" value="Choisir un fichier…" name="backupfilechoose">
+                        <span></span>
+                    </div>    
+                    <div id="file_info_6228ccb065784" class="mdl-left filepicker-filelist" style="position: relative">
+                    <div class="filepicker-filename">
+                        <div class="filepicker-container"><div class="dndupload-message">Vous pouvez glisser des fichiers ici pour les ajouter. <br><div class="dndupload-arrow"></div></div></div>
+                        <div class="dndupload-progressbars"></div>
+                    </div>
+                    <div>
+                        <div class="dndupload-target">Lâcher les fichiers ici pour les envoyer<br>
+                        <div class="dndupload-arrow"></div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div>
+                        </fieldset>
+                        <div class="form-control-feedback invalid-feedback" id="id_error_backupfile"></div>
+                    </div>
+                </div>
+                <div id="fitem_id_submitbutton" class="form-group row  fitem femptylabel">
+                    <div class="col-md-3 col-form-label d-flex pb-0 pr-md-0">
+                        <div class="form-label-addon d-flex align-items-center align-self-start"></div>
+                    </div>
+                    <div class="col-md-9 form-inline align-items-start felement" data-fieldtype="submit">
+                        <input type="submit" class="btn btn-primary" name="submitbutton" value="Restauration">
+                        <div class="form-control-feedback invalid-feedback"></div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="mt-5">Puis cliquer sur « restauration ».<br>
+            Les réglages par défaut sont souvent suffisants dans le cas de la création d’un nouveau cours et il conviendra de 
+            cliquer sur les boutons « continuer » ou « suivant » en bas de chaque étape pour l’ensemble du processus de restauration.</p>
+
+            <div class="mb-5">
+                <div class="backup_progress clearfix"><span class="backup_stage backup_stage_current">1. Confirmer</span> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">▶︎</span> <span class="backup_stage backup_stage_next">2. Destination</span> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">▶︎</span> <span class="backup_stage">3. Réglages</span> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">▶︎</span> <span class="backup_stage">4. Schéma</span> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">▶︎</span> <span class="backup_stage">5. Revoir</span> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">▶︎</span> <span class="backup_stage">6. Effectuer la restauration</span> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">▶︎</span> <span class="backup_stage">7. Terminer</span></div>
+            </div>
+
+            <p>A la fin vous aurez donc copié le cours désiré issu du Moodle de L’Université Numérique vers votre propre plateforme Moodle.</p>
+
+            <br>
+            <h2 id="part4" class="mt-5 mb-4">4- Puis-je modifier le contenu de ce cours ?</h1>
+            
+            <p>Oui. Vous pouvez faire ce que vous voulez dans la limite des conditions de la licence Creative Commons indiquée plus haut 
+            et sous couvert de citer l'auteur de la ressource concernée. La licence associée vous le permet.</p>
+            <p>Par exemple, vous pouvez supprimer toute section du cours que vous jugeriez en trop pour votre utilisation sur votre Moodle.</p>
+            <p>Vous pouvez également ajouter du contenu qui vous est propre et vous semble pertinent.</p>
+            <p>Pour ce faire, il vous suffit d’utiliser les fonctionnalités d’ajout et de modification de contenu comme vous le feriez avec 
+            votre propre cours.</p>
+
+            <br>
+            <h2 id="part5" class="mt-5 mb-4">5- Ressources</h1>
+
+            <p>Un complément d’information plus détaillé sur les restaurations de cours peut être trouvé sur le site officiel 
+            Moodle : <a href="https://docs.moodle.org/3x/fr/Restauration_de_cours" target="_blank">https://docs.moodle.org/3x/fr/Restauration_de_cours</a></p>
+            <p>Les équipes de L’Université Numérique sont également à votre disposition pour vous aider. N’hésitez pas à les contacter à l’adresse 
+            <a href="mailto:contact@luniversitenumerique.fr">contact@luniversitenumerique.fr</a></p>
+
+            <footer class="mt-5">
+                <br><br><a href="https://moodle.luniversitenumerique.fr" class="btn-un">Retour à l'accueil</a><br><br>
+            </footer>
+        </section>
+    </div>
+</div>
+
+{{#js}}
+    require(['jquery'], function($) {
+        $(document).on('click', 'a[href^="#"]', function (event) {
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top - 100
+            }, 500);
+        });
+    });
+{{/js}}

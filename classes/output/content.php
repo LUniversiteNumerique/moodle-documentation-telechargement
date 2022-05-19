@@ -38,7 +38,6 @@ class content implements renderable, templatable {
      */
     public function export_for_template(renderer_base $output) {
         return [
-            'parcours-img' => $output->image_url('parcours-l-universite-numerique', 'local_documentation')->out(),
             'categories-img' => $output->image_url('categories-de-cours-l-universite-numerique', 'local_documentation')->out(),
             'connexion-accueil' => $output->image_url('connexion-accueil-l-universite-numerique', 'local_documentation')->out(),
             'connexion' => $output->image_url('connexion-l-universite-numerique', 'local_documentation')->out(),
